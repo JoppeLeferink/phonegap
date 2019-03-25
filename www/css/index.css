@@ -1,0 +1,176 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body {
+    font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    overflow:hidden;
+}
+h1{
+    color: honeydew;
+    font-size: 34px;
+}
+.header{
+    padding-top: 25px;
+    background-color:#617076;
+    height: 60px;
+    text-align: center;
+    border-bottom: solid 6px darkslategrey;
+}
+.country{;
+    background-color: #47585D;
+    height: 100px;
+    border-bottom: solid 6px darkslategrey;
+    padding-top: 30px;
+    padding-left: 20px;
+    text-align: center;
+}
+.image{
+    height: 60px;
+    width: 60px;
+    border: 2px solid white;
+}
+.china{
+    background-image: url("../img/china.png");
+    height: 60px;
+    width: 60px;
+}
+.america{
+    background-image: url("../img/united-states-of-america.png");
+    height: 60px;
+    width: 60px;
+}
+.uk{
+    background-image: url("../img/united-kingdom.png");
+    height: 60px;
+    width: 60px;
+}
+.europe{
+    background-image: url("../img/european-union.png");
+    height: 60px;
+    width: 60px;
+}
+.landnaam {
+    color: honeydew;
+    font-size: 20px;
+    position: relative;
+    bottom: 40px;
+    right: 120px;
+}
+.value {
+    color: honeydew;
+    font-size: 20px;
+    position: relative;
+    bottom: 60px;
+    left: 180px;
+}
+.naam {
+    color: honeydew;
+    font-size: 14px;
+    position: relative;
+    bottom: 60px;
+    left: 180px;
+}
+.inputfield {
+    background-color: #47585D;
+    height: 270px;
+    border-bottom: solid 6px darkslategrey;
+    padding-top: 30px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.europa {
+    color: honeydew;
+    font-size: 20px;
+    position: relative;
+    bottom: 40px;
+    right: 120px;
+}
+.euro{
+    color: honeydew;
+    font-size: 14px;
+    position: relative;
+    bottom: 60px;
+    left: 180px;
+}
+#input {
+    width: 100px;
+    height: 35px;
+    background-color: transparent;
+    border: 0 solid;
+    color: honeydew;
+    border-bottom: solid 2px #a2a4a5;
+    font-size: 20px;
+    position: relative;
+    bottom: 65px;
+    left: 180px;
+}
+button{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color:#617076;
+    color: honeydew;
+    border: 0 solid;
+    position: relative;
+    bottom: 40px;
+    left: 175px;
+}
+button:hover{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color:darkslategray;mn
+    color: honeydew;mn
+    border: 0 solid;
+    position: relative;
+    bottom: 40px;
+    left: 175px;
+}
+/*footer{*/
+    /*text-align: center;*/
+    /*padding-top: 25px;*/
+    /*background-color: #47585D;*/
+    /*height:70px;*/
+    /*color: whitesmoke;*/
+/*}*/
